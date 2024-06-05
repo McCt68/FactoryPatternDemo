@@ -7,7 +7,7 @@
         {
             Console.WriteLine("Betaling:\n");
            
-            // Brug factory til at oprette instans af KreditKortBetaling
+            // Brug factory til at oprette instans af product KreditKortBetaling
             IBetaling betaling = BetalingFactory.OpretBetaling(BetalingsMetode.KreditKortBetaling);
 
             // Brug metoden Betal fra KreditKortBetaling klassen
