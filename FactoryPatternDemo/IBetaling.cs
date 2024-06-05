@@ -1,4 +1,6 @@
 ﻿namespace FactoryPatternDemo
+
+    // Product
 {
     public interface IBetaling
     {        
